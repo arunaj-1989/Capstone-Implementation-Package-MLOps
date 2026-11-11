@@ -1,0 +1,42 @@
+{
+  "generated_at": "2026-11-11T07:42:56.740740+00:00",
+  "model_name": "hospital-readmission-30d-classifier",
+  "model_version": "1",
+  "reference_rows": 5000,
+  "current_rows": 5000,
+  "feature_drift": {
+    "n_columns": 46,
+    "n_drifted_columns": 17,
+    "drift_share": 0.3695652173913043,
+    "dataset_drift": false,
+    "dataset_drift_rule": "drifted-column share >= 0.5",
+    "drifted_columns": [
+      "num_medications",
+      "time_in_hospital",
+      "num_lab_procedures",
+      "age_midpoint",
+      "num_procedures",
+      "medical_specialty",
+      "diag_1_group",
+      "discharge_disposition_id",
+      "number_diagnoses",
+      "num_med_changes",
+      "insulin",
+      "diag_2_group",
+      "change",
+      "payer_code",
+      "diag_3_group",
+      "admission_source_id",
+      "diabetesMed"
+    ],
+    "report_path": "C:\\Users\\aruna\\OneDrive\\Documents\\upgrad\\Capstone-Implementation-Package-MLOps\\reports\\drift_report.html"
+  },
+  "prediction_drift": {
+    "prediction_psi": 0.1671740141538992,
+    "psi_interpretation": "moderate shift",
+    "reference_mean_score": 0.45271044969558716,
+    "current_mean_score": 0.468138188123703,
+    "reference_flag_rate": 0.3362,
+    "current_flag_rate": 0.3842
+  }
+}

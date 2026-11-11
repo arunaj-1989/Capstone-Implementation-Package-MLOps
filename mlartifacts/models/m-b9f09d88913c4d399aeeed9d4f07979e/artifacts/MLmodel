@@ -1,0 +1,70 @@
+artifact_path: file:///C:/Users/aruna/OneDrive/Documents/upgrad/Capstone-Implementation-Package-MLOps/mlartifacts/models/m-b9f09d88913c4d399aeeed9d4f07979e/artifacts
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.skops
+    predict_fn: predict
+    python_version: 3.14.7
+  sklearn:
+    code: null
+    pickled_model: model.skops
+    serialization_format: skops
+    sklearn_version: 1.9.1
+    skops_trusted_types:
+    - numpy.dtype
+is_signature_from_type_hint: false
+mlflow_version: 3.18.0
+model_id: m-b9f09d88913c4d399aeeed9d4f07979e
+model_size_bytes: 610270
+model_uuid: m-b9f09d88913c4d399aeeed9d4f07979e
+prompts: null
+run_id: 07f45fb1663245bfb6b60ab7d5605ca9
+saved_input_example_info:
+  artifact_path: input_example.json
+  pandas_orient: split
+  serving_input_path: serving_input_example.json
+  type: dataframe
+signature:
+  inputs: '[{"type": "string", "name": "race", "required": false}, {"type": "string",
+    "name": "gender", "required": true}, {"type": "string", "name": "admission_type_id",
+    "required": true}, {"type": "string", "name": "discharge_disposition_id", "required":
+    true}, {"type": "string", "name": "admission_source_id", "required": true}, {"type":
+    "long", "name": "time_in_hospital", "required": true}, {"type": "string", "name":
+    "payer_code", "required": false}, {"type": "string", "name": "medical_specialty",
+    "required": false}, {"type": "long", "name": "num_lab_procedures", "required":
+    true}, {"type": "long", "name": "num_procedures", "required": true}, {"type":
+    "long", "name": "num_medications", "required": true}, {"type": "long", "name":
+    "number_outpatient", "required": true}, {"type": "long", "name": "number_emergency",
+    "required": true}, {"type": "long", "name": "number_inpatient", "required": true},
+    {"type": "long", "name": "number_diagnoses", "required": true}, {"type": "string",
+    "name": "max_glu_serum", "required": true}, {"type": "string", "name": "A1Cresult",
+    "required": true}, {"type": "string", "name": "metformin", "required": true},
+    {"type": "string", "name": "repaglinide", "required": true}, {"type": "string",
+    "name": "nateglinide", "required": true}, {"type": "string", "name": "chlorpropamide",
+    "required": true}, {"type": "string", "name": "glimepiride", "required": true},
+    {"type": "string", "name": "acetohexamide", "required": true}, {"type": "string",
+    "name": "glipizide", "required": true}, {"type": "string", "name": "glyburide",
+    "required": true}, {"type": "string", "name": "tolbutamide", "required": true},
+    {"type": "string", "name": "pioglitazone", "required": true}, {"type": "string",
+    "name": "rosiglitazone", "required": true}, {"type": "string", "name": "acarbose",
+    "required": true}, {"type": "string", "name": "miglitol", "required": true}, {"type":
+    "string", "name": "troglitazone", "required": true}, {"type": "string", "name":
+    "tolazamide", "required": true}, {"type": "string", "name": "insulin", "required":
+    true}, {"type": "string", "name": "glyburide-metformin", "required": true}, {"type":
+    "string", "name": "glipizide-metformin", "required": true}, {"type": "string",
+    "name": "glimepiride-pioglitazone", "required": true}, {"type": "string", "name":
+    "metformin-rosiglitazone", "required": true}, {"type": "string", "name": "metformin-pioglitazone",
+    "required": true}, {"type": "string", "name": "change", "required": true}, {"type":
+    "string", "name": "diabetesMed", "required": true}, {"type": "string", "name":
+    "diag_1_group", "required": true}, {"type": "string", "name": "diag_2_group",
+    "required": true}, {"type": "string", "name": "diag_3_group", "required": true},
+    {"type": "double", "name": "age_midpoint", "required": true}, {"type": "long",
+    "name": "service_utilisation", "required": true}, {"type": "long", "name": "num_med_changes",
+    "required": true}]'
+  outputs: '[{"type": "tensor", "tensor-spec": {"dtype": "float64", "shape": [-1]}}]'
+  params: null
+type_hint_from_example: false
+utc_time_created: '2026-11-08 07:21:55.096456'

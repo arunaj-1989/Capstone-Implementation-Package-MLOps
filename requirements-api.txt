@@ -1,0 +1,11 @@
+# Minimal pinned runtime for the inference container (see Dockerfile).
+numpy==2.5.4
+pandas==2.3.3
+scipy==1.18.1
+scikit-learn==1.9.1
+xgboost==3.4.1
+mlflow-skinny==3.18.0
+skops==0.16.0
+fastapi==0.162.2
+uvicorn==0.54.0
+pydantic==2.14.3

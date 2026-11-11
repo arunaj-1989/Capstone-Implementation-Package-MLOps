@@ -1,0 +1,7 @@
+{
+  "model_name": "hospital-readmission-30d-classifier",
+  "model_version": "2",
+  "alias": "production",
+  "run_id": "d3690def3a854c608450b157728966be",
+  "exported_at": "2026-11-11T07:43:17.389260+00:00"
+}

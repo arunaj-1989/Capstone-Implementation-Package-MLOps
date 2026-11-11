@@ -1,0 +1,14 @@
+.git
+.github
+.venv
+.pytest_cache
+__pycache__
+*.ipynb
+*.pdf
+data
+logs
+reports
+mlartifacts
+mlflow.db
+notebooks
+tests

@@ -1,4 +1,18 @@
-matplotlib
-numpy
-pandas
-seaborn
+# Pinned dependencies (Python 3.14) for reproducible training, serving, monitoring and CI.
+# pandas is held at 2.3.x because evidently 0.7 is not compatible with pandas 3.
+matplotlib==3.11.2
+numpy==2.5.4
+pandas==2.3.3
+seaborn==0.13.2
+scipy==1.18.1
+scikit-learn==1.9.1
+xgboost==3.4.1
+mlflow==3.18.0
+skops==0.16.0
+fastapi==0.162.2
+uvicorn==0.54.0
+pydantic==2.14.3
+requests==2.34.2
+evidently==0.7.23
+pytest==9.2.0
+httpx==0.28.1
